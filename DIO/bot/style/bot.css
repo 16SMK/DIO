@@ -1,0 +1,162 @@
+@import
+URL();
+
+body{
+    background: radial-gradient(rgba(103, 221, 103, 0.8), rgba(0, 100, 0, 0.9));
+}
+
+.nav-container{
+    background-color: rgb(9, 97, 9);
+    height: 60px;
+}
+
+.nav-container div{
+    position: absolute;
+    left: 0px;    
+    padding: 15px; 
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-container ul{
+    position: absolute;
+    right: 5px;
+}
+
+.nav-container ul li{
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+}
+
+#clock {
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-container ul li a{
+    color: #fff;
+}
+
+.nav-document{
+    background-color: grey;
+    height: 50px;
+    margin: 3px;
+}
+
+.nav-document ul{
+    position: absolute;
+    left: 0px;
+}
+
+.nav-document ul li{
+    color: black;
+    display: inline-block;
+}
+
+.dio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.dio-incident {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.dio-heading {
+    color: black;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: .5s;
+}
+
+.button-container button:hover {
+    background-color: red;
+}
+
+.button-container button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.notes-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 35%;
+    text-align: center;
+}
+
+.notes-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notes-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.notes-button:hover {
+    background-color: red;
+}
+
+.notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+/*li {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}*/
+
+
+
+
+.footer-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: xx-small;
+}

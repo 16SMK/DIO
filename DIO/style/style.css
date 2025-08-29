@@ -1,0 +1,54 @@
+@import
+URL('');
+
+body{
+    font-family: Arial, sans-serif;
+    background: radial-gradient(rgba(144, 238, 144, 0.8), rgba(0, 100, 0, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    background-color: #fff;
+    padding: 20px;
+    border: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 5px;
+    border-color: rgb(3, 124, 124);
+    border-radius: 3px;
+}
+
+label, input, button {
+    margin: 10px 0;
+}
+
+.login-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+

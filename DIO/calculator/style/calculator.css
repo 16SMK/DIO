@@ -1,0 +1,96 @@
+@import
+url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+    background-color: gainsboro;
+}
+
+.order-container .nav-container{
+    background-color: rgb(6, 89, 6);
+    height: 60px;
+}
+
+.order-container .nav-container div{
+    position: absolute;
+    left: 0px;    
+    padding: 15px; 
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+
+.order-container .nav-container ul{
+    position: absolute;
+    right: 5px;
+}
+
+.order-container .nav-container ul li{
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+}
+
+.order-container .nav-container ul li a{
+    color: #fff;
+}
+
+
+
+.order-container .calculator{
+    position: relative;
+    max-width: 300px;;
+    width: 100%;
+    padding: 10px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 7px 10px 15px rgba(44, 226, 7, 0.5);
+    background-color: rgba(129, 139, 129, 0.9);
+}
+
+.order-container .calculator h3{
+    position: relative;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.order-container .calculator .display{
+    height: 10%;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: none;
+    text-align: right;
+    color: rgb(175, 22, 22);
+    pointer-events: none;
+}
+
+.order-container .calculator .buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.order-container .calculator .buttons button{
+    padding: 15px 10px;
+    margin: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    color: black;
+}
+
+.order-container .calculator .buttons .operand:hover {
+    background-color: rgba(44, 226, 7, 0.5);
+}
+
+.order-container .calculator .buttons .operator {
+    color: rgb(30, 144, 7);
+}
+
+.order-container .buttons button:active {
+    transform: scale(0.99);
+}
